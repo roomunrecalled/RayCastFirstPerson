@@ -55,5 +55,5 @@ env.Append(LIBPATH=[ godot_bindings_path + '/bin/' ])
 sources = []
 add_sources(sources, "src/")
 
-library = env.SharedLibrary(target='build/libSimple', source=sources)
+library = env.SharedLibrary(target='build/FirstPersonRaycaster', source=sources)
 Default(library)
